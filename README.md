@@ -1,22 +1,24 @@
-MedicalBot - AI Powered Medical Chatbot
+# MedicalBot - AI Powered Medical Chatbot
 Overview
 
 MedicalBot is a Retrieval-Augmented Generation (RAG) based chatbot that answers medical-related queries using a vector database and Google Gemini AI model. It retrieves relevant medical information from stored embeddings and generates accurate responses using LLMs.
 
-Features
+## Features
 Medical question answering using AI
 RAG pipeline with Pinecone vector database
 Embedding generation using Sentence Transformers
 Google Gemini (ChatGoogleGenerativeAI) for response generation
 Flask web interface for user interaction
-Tech Stack
+
+### Tech Stack
 Python
 Flask
 LangChain
 Pinecone Vector DB
 Google Gemini API
 Sentence Transformers (HuggingFace embeddings)
-Project Structure
+
+### Project Structure
 
 MedicalBot/
 │
@@ -29,8 +31,8 @@ MedicalBot/
 ├── requirements.txt
 ├── README.md
 
-Setup Instructions
-1. Clone repository
+### Setup Instructions
+# 1. Clone repository
 
 git clone <your-repo-link>
 
@@ -54,12 +56,13 @@ PINECONE_API_KEY=your_api_key
 
 python app.py
 
-How it works
+### How it works
 User asks a question
 Query is converted into embeddings
 Pinecone retrieves relevant documents
 Gemini generates final answer using context
 Flask returns response to UI
-Notes
+
+### Notes
 Make sure API keys are valid
 Use Python 3.10–3.11 for best compatibility
