@@ -32,27 +32,27 @@ MedicalBot/
 ├── README.md
 
 ### Setup Instructions
-# 1. Clone repository
+#### 1. Clone repository
 
 git clone <your-repo-link>
 
-2. Create virtual environment
+#### 2. Create virtual environment
 
 python -m venv venv
 venv\Scripts\activate (Windows)
 
-3. Install dependencies
+#### 3. Install dependencies
 
 pip install -r requirements.txt
 
-4. Set environment variables
+#### 4. Set environment variables
 
 Create a .env file:
 
 GOOGLE_API_KEY=your_api_key
 PINECONE_API_KEY=your_api_key
 
-5. Run the application
+#### 5. Run the application
 
 python app.py
 
